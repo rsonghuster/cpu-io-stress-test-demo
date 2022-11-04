@@ -28,7 +28,7 @@ services:
         timeout: 60
         runtime: custom-container
         customContainerConfig:
-          image: registry-vpc.cn-hangzhou.aliyuncs.com/fc-demo/blotter:1.8.4
+          image: registry.cn-hangzhou.aliyuncs.com/fc-demo/blotter:1.8.4
           accelerationType: Default
         codeUri: ./code
         instanceType: e1
